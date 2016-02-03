@@ -2,14 +2,22 @@
   "name": "promise",
   "version": "1.0.0",
   "description": "polyfill for Promise. just for study",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "rm -rf ./dist && babel -d dist/ src/",
+    "test": "mocha"
   },
   "keywords": [
     "Promise"
   ],
   "repository": "https://github.com/wssgcg1213/Promise.git",
   "author": "Ling.",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.4.5",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "mocha": "^2.4.5",
+    "promises-aplus-tests": "^2.1.1"
+  }
 }
