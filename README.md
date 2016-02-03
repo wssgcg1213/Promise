@@ -1,12 +1,20 @@
 # Promise Polyfill for study.
 
-遵循ES2016标准
+ implementation with the [Promises/A+ specification](https://github.com/promises-aplus/promises-spec).
 
+test through `Promises/A+ Compliance Test Suite`
 
+### STEP1.Install Deps
 
+`npm i`
 
+### STEP2.compile
 
+`npm run compile`
 
+### STEP3.test
+
+`npm run test`
 
 
 
