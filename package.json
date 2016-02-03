@@ -1,0 +1,15 @@
+{
+  "name": "promise",
+  "version": "1.0.0",
+  "description": "polyfill for Promise. just for study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Promise"
+  ],
+  "repository": "https://github.com/wssgcg1213/Promise.git",
+  "author": "Ling.",
+  "license": "MIT"
+}
